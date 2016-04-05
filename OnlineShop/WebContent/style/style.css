@@ -1,0 +1,214 @@
+article, aside, figure, footer, header, nav, tabs {
+    display: block;
+        }
+        
+      
+    html {
+	background-image: url("../images/backG.jpg");	
+    }
+    
+    @font-face{ 
+	font-family: 'MyWebFont';
+	src: url('../fonts/Akashi.ttf');
+	} 
+        
+	body{
+	font-family: MyWebFont;
+	font-size: 62.5%;
+	color: #4f4f4f;
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 0;
+	}
+	
+   	header { 
+   	background:white;
+  	background: -moz-linear-gradient(right, rgb(193, 62, 62) 5%, white 75%);
+    padding: 40px 0px 70px 0px;
+    border: 3px solid #2b187b;
+    border-radius: 15px;
+    } 
+        
+    header img { 
+    max-width: 100%;
+    height: auto;
+	float: left;
+    opacity: 0.8;
+    margin: 10px;
+    } 
+    
+    #tabs{
+    border: 3px solid #2b187b;
+	box-shadow: 0 9px 18px 9px;
+    border-radius: 15px;
+    }
+    
+    h1 {
+    font-family: MyWebFont;
+    font-size: 400%;
+    color: #2b187b;
+    
+	text-shadow: 0.05em 0.05em #f0b921;
+	font-style:italic;
+    margin:0;
+	padding:0;
+    }
+    
+    #tabs-1 h1{
+    margin-left: 40px;
+    }
+        
+    h2 {
+	font-size: 150%;
+    color: #2b187b;
+    font-style:italic;
+	padding-bottom: 15px;
+    margin-left: 40px;
+    }
+    
+    h3{
+     font-family: MyWebFont;
+    font-size: 110%;
+    color: #2b187b;
+    }
+    
+    a{
+    font-family: MyWebFont;
+    font-size: 110%;
+    }
+    
+    p{
+    font-family: MyWebFont;
+    font-size: 110%;
+    color: #2b187b;
+    }
+    
+    .fb-like{
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 5px;
+    }
+    
+    #tweet{
+    margin-top: 20px;
+    margin-right: 5px;
+    }
+    
+    table{
+    font-family: MyWebFont;
+    font-size: 110%;
+    color: #2b187b;
+    }
+    
+    li{
+    color: #2b187b;
+    }
+    
+    .columns{
+	columns:180px 2;
+	-moz-columns:180px 2; /* Firefox */
+	margin: 40px;
+	}
+	
+	.columns img{
+	height:200px;
+  	width:200px;
+	float: right;
+	margin: 10px;
+	}
+        
+	.demoHeaders {
+	margin-top: 1em;
+	}
+	
+	.ocarousel_window{
+	width: 960px;
+	height: 250px;
+	margin: auto;
+	}
+	
+	.ocarousel_window img{
+	width: 960px;
+	height: 250px;
+	}
+	
+	#carousel{
+	margin: auto;
+	}
+	
+	#features{
+	width: 800px;
+	height: 250px;
+	background-color: white;
+	border: 3px solid rgb(193, 62, 62);
+	border-radius: 5px;
+	}
+	
+	button{
+	font-family: MyWebFont;
+    font-size: 110%;
+    color: #2b187b;
+	}
+	
+	#features img{
+	float: right;
+	width:auto;
+	height: 250px;
+	margin-right: 20px;
+	}
+	
+	#features p{
+	float: left;
+	}
+	
+	iframe{
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	}
+	
+	.text{
+	color: #2b187b;
+	}
+	
+	.text h3{
+	text-shadow: 0.05em 0.05em #f0b921;
+	}
+	
+	#accordion_2{
+	font-family: MyWebFont;
+    font-size: 110%;
+	}
+	
+	#accordion_2 iframe{
+	width: 920px;
+	height: 300px;
+	margin: auto;
+	}
+	
+	form{
+	font-family: MyWebFont;
+    font-size: 110%;
+    color: #2b187b;
+    float: left;
+	}
+	
+	#contact{
+	float: right;
+	}
+	
+	
+    footer{
+	clear:left;
+	font-size:90%;
+    border-top: 1px solid #2b187b;
+    background: -moz-linear-gradient(right, rgb(193, 62, 62) 5%, white 75%);
+	text-align:left;
+	padding:15px;
+	border: 3px solid #2b187b;
+	box-shadow: 0 9px 18px 9px;
+    border-radius: 15px;
+    margin-top: 2em;
+	}

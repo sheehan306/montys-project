@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Software/asm-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Software/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Software/eclipselink-jpa-modelgen_2.4.1.v20121003-ad44345.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Software/jackson-core-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jackson-jaxrs-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jackson-mapper-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jackson-xc-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software/javax.persistence_1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/javax.persistence_2.0.4.v201112161009.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jersey-client-1.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jersey-core-1.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jersey-json-1.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jersey-server-1.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="C:/Software/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Software/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_73">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
